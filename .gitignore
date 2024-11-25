@@ -25,6 +25,9 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+ml-service/models/roberta-base/
+ml-service/models/roberta-base/model.safetensors
+.nlp-twitter-classifier
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
