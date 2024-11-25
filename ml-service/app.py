@@ -31,5 +31,5 @@ async def analyze(classify_text: classify.ClassifyRequest):
 app.include_router(router)
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="0.0.0.0", port=6000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=8080, reload=True)
     
