@@ -15,11 +15,6 @@ test:
 	@echo "Running tests in $(TEST_DIR)..."
 	cd ml-service && pytest
 
-# Objetivo para ejecutar todos los tests en el directorio
-test-all:
-	@echo "Running all tests in $(TEST_DIR)..."
-	$(TEST_RUNNER) $(TEST_DIR)
-
 # Limpieza (opcional, si necesitas limpiar algún archivo temporal)
 clean:
 	@echo "Cleaning up..."
