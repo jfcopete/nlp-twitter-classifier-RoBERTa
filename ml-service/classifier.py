@@ -45,5 +45,3 @@ class Classifier:
 
         # Devuelve el diccionario con la etiqueta y la puntuación
         return results
-
-        
